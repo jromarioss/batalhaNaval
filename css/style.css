@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+  background-color: black;
+}
+
+#board {
+  position: relative;
+  width: 1024px;
+  height: 863px;
+  margin: auto;
+  background-image: url("../img/radar01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#messageArea {
+  position: absolute;
+  top: 30px;
+  left: 155px;
+  padding: 10px;
+  border: 2px solid red;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.12em;
+}
+
+#board table {
+  position: absolute;
+  left: 155px;
+  top: 75px;
+  border-spacing: 0px;
+}
+
+#board table td {
+  width: 94px;
+  height: 94px;
+  border: 3px solid white;
+}
+
+#board form {
+  position: absolute;
+  bottom: -25px;
+  right: 152px;
+  padding: 10px;
+  background-color: rgb(80, 175, 19);
+}
+
+#board form input {
+  background-color: rgb(152, 207, 113);
+  letter-spacing: 0.15em;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#board p {
+  border: 2px solid red;
+  display: inline;
+}
+
+#board p span {
+  display: flex;
+  flex-direction: row ;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
